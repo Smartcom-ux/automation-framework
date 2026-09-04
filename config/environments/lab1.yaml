@@ -1,0 +1,17 @@
+environment: lab1
+
+application:
+  base_url: "https://lab1.vectorflow.app"
+  landing_page: "/"
+
+api:
+  base_url: "https://lab1-be-us.vectorflow.app"
+  login_endpoint: "/api/user/login/?isSSO=0"
+
+browser:
+  headless: false
+  slow_mo: 0
+
+timeouts:
+  default: 10000
+  navigation: 30000
