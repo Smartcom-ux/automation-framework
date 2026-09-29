@@ -63,3 +63,10 @@ class Settings:
     @property
     def timeouts(self):
         return self.data["timeouts"]
+
+    @property
+    def open_so_details_url(self):
+     return (
+        self.data["api"]["base_url"]
+        + self.data["api"]["open_so_details_endpoint"]
+      )

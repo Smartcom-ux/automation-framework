@@ -1,11 +1,11 @@
-environment: lab1
+environment: vst_qa
 
 application:
-  base_url: "https://lab1.vectorflow.app"
-  landing_page: "/"
+  base_url: "https://vstvfqa.vsttractors.com"
+  landing_page: "/landing-page"
 
 api:
-  base_url: "https://lab1-be-us.vectorflow.app"
+  base_url: "https://vstvfusqa.vsttractors.com"
   login_endpoint: "/api/user/login/?isSSO=0"
   open_so_details_endpoint: "/api/mto/getOpenSODetailsData/"
 

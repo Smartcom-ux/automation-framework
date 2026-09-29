@@ -106,9 +106,11 @@ def authenticated_page(browser, settings):
             settings.base_url,
             wait_until="domcontentloaded"
         )
-
+        # Set browser page zoom to 80%
+        page.evaluate("document.body.style.zoom = '67%'")
         yield page
 
     finally:
 
-        context.close()
+       
+       context.close()

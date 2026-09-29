@@ -1,5 +1,7 @@
 from pages.landing_page import LandingPage
+import pytest
 
+@pytest.mark.order(1)
 
 def test_login_success(authenticated_page, settings):
 
